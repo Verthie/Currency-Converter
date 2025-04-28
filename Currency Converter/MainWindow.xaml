@@ -4,9 +4,75 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Currency_Converter"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Currency Converter" SizeToContent="WidthAndHeight" MinHeight="550" MinWidth="1000" WindowStartupLocation="CenterScreen">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="2" Width="800" CornerRadius="10" BorderThickness="5" Margin="75,0">
+            <Border.BorderBrush>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="1,0">
+                    <GradientStop Color="#FF7F39B1" Offset="0.0"/>
+                    <GradientStop Color="#FF7A72CE" Offset="0.5"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Rectangle Grid.Row="2" Width="800">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="1,0">
+                        <GradientStop Color="#FF7F39B1" Offset="0.0"/>
+                        <GradientStop Color="#FF7A72CE" Offset="0.5"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Border>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Currency Converter" FontSize="30" FontWeight="Bold" FontFamily="Rubik" Foreground="#FF3C3496" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center">
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Converted Currency" FontSize="20" FontFamily="Rubik"></Label>
+            <Label Name="lblCurrency" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Rubik"></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Height="60" Width="800">
+            <Label Height="40" Width="150" Content="Enter Amount: " Margin="35 0 0 0" VerticalAlignment="Bottom" Foreground="White" FontSize="20" FontFamily="Rubik"></Label>
+            <Label Height="40" Width="150" Content="From: " Margin="110 0 0 0" VerticalAlignment="Bottom" Foreground="White" FontSize="20" FontFamily="Rubik"></Label>
+            <Label Height="40" Width="150" Content="To: " Margin="130 0 0 0" VerticalAlignment="Bottom" Foreground="White" FontSize="20" FontFamily="Rubik"></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Height="90" Width="800" VerticalAlignment="Bottom">
+            <TextBox Name="txtCurrency" PreviewTextInput="NumberValidationTextBox" Width="200" Height="30" Margin="40 0 0 0" FontSize="18" VerticalContentAlignment="Center" VerticalAlignment="Top" FontFamily="Rubik"></TextBox>
+            <ComboBox Name="cmbFromCurrency" Width="170" Height="30" Margin="60 0 40 0" FontSize="18" VerticalContentAlignment="Center" VerticalAlignment="Top" MaxDropDownHeight="150" FontFamily="Rubik"></ComboBox>
+            <fa:ImageAwesome Icon="Exchange" Height="30" Width="30" Foreground="White" VerticalAlignment="Top"></fa:ImageAwesome>
+            <ComboBox Name="cmbToCurrency" Width="170" Height="30" Margin="40 0 0 0" FontSize="18" VerticalContentAlignment="Center" VerticalAlignment="Top" MaxDropDownHeight="150" FontFamily="Rubik"></ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Button Click="OnConvertClick" Name="Convert" Width="140" Height="40" Content="Convert" Foreground="White" FontSize="20" Margin="0,0,15,0" Style="{StaticResource ButtonRound}" FontFamily="Rubik">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,0" StartPoint="1,0">
+                        <GradientStop Color="#FFA175F1" Offset="0.0"/>
+                        <GradientStop Color="#FF8F89C8" Offset="0.6"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <Button Click="OnClearClick" Name="Clear" Width="140" Height="40" Content="Clear" Foreground="White" FontSize="20" Margin="15,0,0,0" Style="{StaticResource ButtonRound}" FontFamily="Rubik">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,0" StartPoint="1,0">
+                        <GradientStop Color="#FFA175F1" Offset="0.0"/>
+                        <GradientStop Color="#FF8F89C8" Offset="0.6"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </StackPanel>
         
     </Grid>
 </Window>

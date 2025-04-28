@@ -1,0 +1,19 @@
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter.csproj.AssemblyReference.cache
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\MainWindow.g.cs
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\App.g.cs
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter_MarkupCompile.cache
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter_MarkupCompile.lref
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\bin\Debug\Currency Converter.exe.config
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\bin\Debug\Currency Converter.exe
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\bin\Debug\Currency Converter.pdb
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\bin\Debug\FontAwesome.WPF.dll
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\bin\Debug\FontAwesome.WPF.xml
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\MainWindow.baml
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter.g.resources
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency_Converter.Properties.Resources.resources
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter.csproj.GenerateResource.cache
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter.csproj.CoreCompileInputs.cache
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency.F9AF2F12.Up2Date
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter.exe
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter.pdb
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\App.baml
