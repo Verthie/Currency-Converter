@@ -164,5 +164,19 @@ namespace Currency_Converter
             txtCurrency.Focus();
         }
 
+        private void OnSaveClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnCancelClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void dgvCurrency_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
+        {
+
+        }
     }
 }
