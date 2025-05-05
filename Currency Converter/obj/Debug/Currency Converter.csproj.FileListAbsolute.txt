@@ -17,3 +17,6 @@ D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\C
 D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter.exe
 D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter.pdb
 D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\App.baml
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\bin\Debug\Database\CurrencyConverter.mdf
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\bin\Debug\Database\CurrencyConverter_log.ldf
+D:\Verth\Programowanie\C#\Master CSharp Course\WPF Projects\Currency Converter\Currency Converter\obj\Debug\Currency Converter_Content.g.cs
